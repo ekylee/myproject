@@ -150,19 +150,14 @@ export default function Case5() {
           <img src={img7} alt=""/>
           <h1 class='headertext-ux'>Prototype</h1>
           <div class="container">
-
-            <a href="https://xd.adobe.com/view/629c19d4-
-                8e73-4ad1-af16-24ac75b5866e-
-                37cf/?fullscreen&hints=off" class="button">
+            <a href="https://xd.adobe.com/view/629c19d4-8e73-4ad1-af16-24ac75b5866e-37cf/?fullscreen&hints=off" class="button">
               <div class="button__line"></div>
               <div class="button__line"></div>
               <span class="button__text">Full Prototype</span>
               <div class="button__drow1"></div>
               <div class="button__drow2"></div>
             </a>
-
           </div>
-            
           <img src={img8} alt=""/>
         </div>
 
