@@ -27,7 +27,7 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/myproject" element={<Layout />}>
           <Route 
            index element={<TransitionComponent><Home /></TransitionComponent>} />
             <Route path="About" element={<TransitionComponent><About /></TransitionComponent>} />
