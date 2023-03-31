@@ -61,7 +61,7 @@ main h1{
     height: 85%;}
 
 /* desktop version */
-@media screen and (min-width:600px) {
+@media screen and (min-width:650px) and (min-width:960px) {
 
 /* Make grid */
 

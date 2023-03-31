@@ -296,7 +296,7 @@ swiper-slide {
 }
 
 /* desktop version */
-@media screen and (min-width:600px) {
+@media screen and (min-width:650px) and (min-width:960px) {
 
     .container-case{
         width: 110vh;

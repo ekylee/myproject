@@ -113,7 +113,7 @@ nav a:hover {
 
 
 /* desktop version */
-@media screen and (min-width:700px) {
+@media screen and (min-width:650px) and (min-width:960px) {
 
 
 /* styling for desktop potfolio grid */
