@@ -16,7 +16,8 @@ export default function MotionGraphic() {
             <span className="headertext">
             <Link to ="/Case5">Northern Xscape Rental</Link>
             </span>
-            <img src={img1} alt="" />
+            <Link to ="/Case5"><img src={img1} alt="" /></Link>
+            
           </div>
           {/* <div className="portfolioItem">
             <span className="headertext">

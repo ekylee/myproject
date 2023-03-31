@@ -20,24 +20,24 @@ export default function MotionGraphic() {
             <span className="headertext">
             <Link to ="/Case1">Illenium Magazine</Link>
             </span>
-            <img src={img1} alt="" />
+            <Link to ="/Case1"><img src={img1} alt="" /></Link>
           </div>
           <div className="portfolioItem">
             <span className="headertext">
             <Link to ="/Case2">Cofy. Brandbook</Link>
             </span>
-            <img src={img2} alt="" />
+            <Link to ="/Case2"><img src={img2} alt="" /></Link>
           </div>
           <div className="portfolioItem">
             <span className="headertext">
             <Link to ="/Case3">Cofy. Merch</Link>
             </span>
-            <img src={img3} alt="" />
+            <Link to ="/Case3"><img src={img3} alt="" /></Link>
           </div>          <div className="portfolioItem">
             <span className="headertext">
             <Link to ="/Case4">Cofy. Website and App Adoption</Link>
             </span>
-            <img src={img4} alt="" />
+            <Link to ="/Case4"><img src={img4} alt="" /></Link>
           </div>
       </section>
      </main> 
