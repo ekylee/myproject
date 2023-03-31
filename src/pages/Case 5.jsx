@@ -42,7 +42,7 @@ export default function Case5() {
         className= "container-case-ux">
           <SwiperSlide className="caseItem-ux">
             <span>
-            <h1></h1>
+            {/* <h1></h1> */}
             </span>
             <img src={img1} alt="magazine design pg 1" />
           </SwiperSlide>
