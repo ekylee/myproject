@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+/* Mobile design */
+
+/* center title */
+
+main h1{
+    text-align: center;
+}
+
+/* style logo on about and contact pages */
+.container-about img, .container-contact img{
+    width: 100%;
+}
+/* 2nd font for subhead if needed */
+.headertext-about{
+    font-family: 'Yeseva One', cursive;
+    font-size: 19px;
+}
+/* body font size */
+.body-about{
+    font-size: 15px;
+}
+
+/* Make grid */
+.container-about{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1rem;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+
+/* about img styling */
+.about-img{
+    /* background-color: #f0dcdc;
+    padding: 3rem;
+    border-radius: 50%; */
+    /* border: 1px solid transparent; */
+    /* box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19); */
+    transition: var(--transition);
+    margin-left: 35%;
+    }
+/* to center img */
+.about-img{
+    text-align: center;
+    width: 30%;
+}
+
+.aboutItem{
+    background-color: #f0dcdc;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19);
+    transition: var(--transition);
+    height: 85%;}
+
+/* desktop version */
+@media screen and (min-width:600px) {
+
+/* Make grid */
+
+.container-about{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin-top: 30px;
+    width: 50%;
+    height:2%;
+    margin-bottom: 1%;
+}
+/* grid item styling */
+.aboutItem{
+background-color: #f0dcdc;
+padding: 1.3rem;
+border-radius: 2rem;
+border: 1px solid transparent;
+box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19);
+transition: var(--transition);
+height: 90%;
+}
+/* desktop image styling */
+.about-img{
+    padding: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    margin-left: 32%;
+    }
+
+.about-img{
+    text-align: center;
+    width: 30%;
+}
+
+
+
+}
+
+
+            
+            

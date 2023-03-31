@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500&family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Lora&display=swap');
+/* mobile design */
+
+/* font and color styling for body section */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none; /* Remove bullets */
+
+}
+
+/* footer a tag styling */
+a {
+    color: #008000;
+}
+
+/* header font and sizing */
+.headertext{
+    font-family: 'Yeseva One', cursive;
+    font-size: 24px;
+
+} 
+/* subheader font and sizing */
+.subheader{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+span a {
+    color: black;
+    text-decoration: none;
+}
+
+/*main Layout Grid*/
+
+.main_layout{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* hero section */
+.hero{
+    display: grid;
+    /* grid-template-areas: 'stack'; */
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    border: 1px solid transparent;
+    text-align: center;
+    background-color: #f0dcdc;
+    border-radius: 2rem;
+    max-width: 90%;
+    margin-left: 5%;
+    gap: 7%;
+}
+/* to stack sentance on top of image */
+/* .hero > *{
+    /* grid-area: stack; */
+
+/* image styling */
+.hero img {
+    max-width: 140%;
+    max-height: 50%;
+    margin-top: -10%;
+}
+
+.hero h1{
+    margin: 8%;
+    font-size: large;
+    font-weight: 400;
+}
+
+/* type animation styling */
+.typeanimation{
+    font-weight: 600;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* header, main nav */
+
+header img{
+        position: relative;
+        width:100%;
+        height:13vh;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+header nav {
+    margin: 0 auto;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 3%;
+}
+header nav a {
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    color: black;
+}
+header nav a:hover {
+    color: #ccc;
+}
+
+/* content */
+main h2 {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+main .content {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 90%;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(221, 220, 220, 0.2), 0 6px 20px 0 rgba(215, 213, 213, 0.19);
+    border-radius: 1.5rem;
+    padding: 5px;
+    font-size:21px;
+    text-align: center;
+}
+
+/* To make grid for What I do section */
+.container-home{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 2.5rem;
+}
+/* to style grid items on what to do section */
+.content .project{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 90%;
+    background-color: #f0dcdc;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    font-size: 16px;
+    text-align: center;
+    transition: var(--transition); 
+}
+
+/* make grid for process section */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 5%;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+/* make grid for tool section */
+.grid-tools{
+    display: grid;
+    gap: 2rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* hover state */
+.project:hover{
+    background-color: transparent;
+    border-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19);
+}
+
+/* to center some body text */
+.center{
+    text-align: center;
+
+    padding-bottom: 1vh;
+
+
+}
+/* text align left */
+.left{
+    text-align: left;
+    margin-left: 2vh;
+    margin-right: 2vh;
+
+}
+
+.Portfolio{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.container-contact{
+    display: grid;
+}
+
+/* portfolio nav */
+.container-nav {
+    margin: 0 auto;
+    margin-top: 10px;
+    display: grid;
+    width: 90%;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    gap: 10vh;
+}
+
+.container-nav li{
+    padding: 22%;
+    background-color: #f0dcdc;
+    border-radius: 1rem;
+    border: 1px solid  transparent;
+    transition: var(--transition);
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19);
+
+
+}
+
+.container-nav :hover{
+    background-color: rgb(151, 130, 133);
+    
+}
+/* Icon styling */
+.shared-class{
+    vertical-align: middle;
+    color: #2A306C;
+    justify-content: center;
+}
+
+
+/* Footer styling */
+footer{
+    text-align: center;
+    margin: 1%;
+}
+
+/* desktop version */
+
+@media screen and (min-width:650px) {
+
+    /* home page grid styling */
+
+    .container-home{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;}
+
+    /* section "what I do" Grid styling */
+    .container-home{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        
+    }
+    /* Hero Image styling */
+    .hero img {
+        max-width: auto;
+        max-height: 50%;
+        border-radius: 2rem;
+    
+    }
+    /* to style process section desktop */
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+    }
+
+    .hero h1{
+        margin: 8%;
+        font-size: xx-large;
+        font-weight: 400;
+    }
+    /* left align text */
+    .left{
+        text-align: left;
+        margin-left: 3vh;
+        margin-right: 3vh;
+    
+    }
+    /* typeanimation sizing */
+    .typeanimation{
+        color: #08106c;
+        font-weight: 600;
+        font-family: 'Yeseva One', cursive;
+
+    }
+
+    /* portfolio nav */
+
+    .container-nav {
+        margin: 0 auto;
+        margin-top: 10px;
+        display: grid;
+        width: 90%;
+        padding: 20px;
+        font-size: 14px;
+        text-align: center;
+        gap: 10vh;
+    }
+    
+    .container-nav li{
+        /* background-image:url(../image/img1.jpg); */
+        padding: 22%;
+        background-color: #f0dcdc;
+        border-radius: 1rem;
+        border: 1px solid  transparent;
+        transition: var(--transition);
+        box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19);
+    
+    
+    }
+
+}

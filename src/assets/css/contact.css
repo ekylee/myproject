@@ -1,0 +1,112 @@
+
+/* Mobile design */
+/* Make Grid for contact page */
+.container-contact{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* to center logo with grid */
+.contact{
+    width: 50%;
+    background-color: #f0dcdc;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, #f0dcdc, transparent);
+    display: grid;
+    margin: 6rem auto 4rem; 
+    place-items: center;
+
+}
+/* Logo img styling */
+.contactImg {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: var(--transition);
+    margin-left: 20%;
+}
+/* logo hover state animation */
+.contactImg:hover {
+    transform: rotate(10deg);
+
+}
+/* make grid items */
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10%;
+    margin-left: 15%;
+    margin-right: 15%; 
+    text-align: center;
+    place-content: center;  
+}
+/* styling of grid items */
+.contactItem{
+    background: #f0dcdc;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(166, 165, 165, 0.19);
+    border-radius: 1rem;
+    padding:2rem;
+    text-align: center;
+}
+/* hover state */
+.contactItem:hover{
+    background: #a19d9d ;
+    border-color: white ;
+    cursor: default;
+}
+/* react icon styling */
+.contactIcon{
+    color: #2A306C;
+    margin-top: 10%;
+}
+/* work under icon styling */
+.contactItem p{
+    font-size: small;
+    color: rgb(35, 84, 190);
+}
+
+/* desktop design */
+@media screen and (min-width:600px) {
+    /* grid styling */
+    .container-contact{
+        display: grid;
+        grid-template-columns: 40% 50%;
+    }
+    /* center logo image w grid */
+    .contact{
+        width: 100%;
+        aspect-ratio: 1/1;
+        background-color: #f0dcdc;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, #f0dcdc, transparent);
+        display: grid;
+        place-items: center;
+        margin-left: 35%; 
+    
+    }
+    /* img styling */
+    .contactImg {
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(0deg);
+        transition: var(--transition);
+    }
+    .contactImg:hover {
+        transform: rotate(10deg);
+    
+    }
+    /* Grid item styling */
+    .contact-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:15%;
+        margin-left: 15%;
+        margin-right: 15%;  
+        text-align: center;
+        padding:20%;
+    }
+
+
+    
+    
+}

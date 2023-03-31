@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;500&family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Lora&display=swap');
+
+/* Styling for UX cases */
+/* subhead font and size */
+.subheadertext-ux{
+    font-family: 'Yeseva One', cursive;
+    font-size: medium;
+} 
+
+/* header font and size */
+.headertext-ux{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.container-case-ux{
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr, 2 1fr, 1 2fr);
+    gap: 2.5rem; */
+    width: 80vh;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+.caseItem-ux{
+
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(135, 135, 135, 0.19);
+    transition: var(--transition);
+    text-align: center;
+    margin-top: 5%;
+}
+
+.caseItem-ux img{
+    width: 100%;
+    height: 100%;
+}
+
+article img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#case1 article{
+    margin-top: 2vh;
+    width: 70vh;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(135, 135, 135, 0.19);
+    text-align: left;
+    padding: 1vh;
+
+}
+
+#case1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr,);
+    place-items: CENTER;
+}
+
+
+/* font styling */
+.caseItem-ux span{
+    position: absolute;
+    text-align: left;
+    font-size: 5vh;
+    margin-left: 2%;
+}
+
+  
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+/* desktop version */
+@media screen and (min-width:600px) {
+
+    .container-case-ux{
+        width: 110vh;
+        height: 70vh;
+        padding: 2.5rem;
+        padding-bottom: 6rem;
+    }
+
+    #case1 article{
+        width: 100vh;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(135, 135, 135, 0.19);
+        padding: 2vh;
+    }
+
+    #case1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr,);
+        place-items: center;
+
+    }
+
+}

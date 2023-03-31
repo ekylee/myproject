@@ -1,0 +1,143 @@
+/* Mobile site styling*/
+
+/* Make portfolio Grid style */
+
+.container-portfolio{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'stack'; 
+        gap: 2.5rem;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+.portfolioItem > *{
+    grid-area: stack;
+}
+
+.portfolioItem video {
+    width:100%;
+    height: auto; 
+    border-radius: 2rem;
+}
+
+/* Styling for project images */
+.portfolioItem img{
+    width:100%;
+    height: auto; 
+    border-radius: 2rem;
+    transition: all .2s ease-in-out; 
+    animation-duration: 500;
+}
+/* Styling for grid Items */
+
+.portfolioItem{
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(155, 154, 154, 0.2), 0 6px 20px 0 rgba(135, 135, 135, 0.19);
+    transition: var(--transition);
+    text-align: center;
+    margin-top: 5%;
+}
+/* font styling */
+.portfolioItem span{
+    position: absolute;
+    text-align: left;
+    font-size: 5vh;
+    margin-left: 2%;
+}
+
+
+/* Portfolio page hover state */
+
+.portfolioItem:hover{
+    border-color: rgb(196, 194, 194);
+    transition: var(--transition);
+    color: rgb(183, 183, 183);
+    transform: scale(105%);
+    background-color: #ccc;
+}
+
+
+
+/* Styling for Nav in Portfolio page  */
+
+nav {
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+nav a {
+    font-size: 20px;
+    display: block;
+    padding: 8%;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ccc;
+}
+
+@media screen and (min-width:700px) {
+    .portfolioItem h1{
+        position: absolute;
+        text-align: left;
+        font-size: 30px;
+        color: white;
+        margin-left: 2%;
+    
+    }
+
+}
+
+
+
+/* tablet version */
+ @media screen and (min-width:800px) {
+/* styling for desktop potfolio items */
+
+.portfolioItem h1{
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin-left: 2%;
+
+}
+
+} 
+
+
+/* desktop version */
+@media screen and (min-width:700px) {
+
+
+/* styling for desktop potfolio grid */
+    .container-portfolio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        text-align: center;
+
+}
+/* styling for desktop potfolio items */
+
+.portfolioItem h1{
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    margin-left: 2%;
+
+}
+
+.portfolioItem video {
+    width:100%;
+    height: 90%; 
+    border-radius: 1rem;
+}
+}
