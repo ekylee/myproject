@@ -26,7 +26,6 @@ import Case5 from "./pages/Case 5";
 export default function App() {
   return (
     <div className="App">
-     <HashRouter>  
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route 
@@ -54,7 +53,6 @@ export default function App() {
           <Route path="*" element={<TransitionComponent><NotFound /></TransitionComponent>} />
         </Route>
       </Routes>
-      </HashRouter>  
 
     </div>
   );
