@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myproject/static/css/main.893bbfb7.css",
-    "main.js": "/myproject/static/js/main.86703cb3.js",
+    "main.js": "/myproject/static/js/main.dadc7679.js",
     "static/media/A5_Motion Design Production_Esther_Lee.mp4": "/myproject/static/media/A5_Motion Design Production_Esther_Lee.34708fa91249a537e6f2.mp4",
     "static/media/Sign_Mockup01_MicroVolume.jpg": "/myproject/static/media/Sign_Mockup01_MicroVolume.8d478b89d51fc2e3fdb9.jpg",
     "static/media/EDM logo_1.mp4": "/myproject/static/media/EDM logo_1.6cedd2f5f69f9b790a90.mp4",
@@ -32,10 +32,10 @@
     "static/media/Asset2.svg": "/myproject/static/media/Asset2.5cd6a65684bee36b8c2979b51144923a.svg",
     "index.html": "/myproject/index.html",
     "main.893bbfb7.css.map": "/myproject/static/css/main.893bbfb7.css.map",
-    "main.86703cb3.js.map": "/myproject/static/js/main.86703cb3.js.map"
+    "main.dadc7679.js.map": "/myproject/static/js/main.dadc7679.js.map"
   },
   "entrypoints": [
     "static/css/main.893bbfb7.css",
-    "static/js/main.86703cb3.js"
+    "static/js/main.dadc7679.js"
   ]
 }
