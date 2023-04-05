@@ -18,27 +18,23 @@ export default function MotionGraphic() {
         <section className="container-portfolio">
           <div className="portfolioItem">
             <span className="headertext">
-            <Link to ="/Case1">Illenium Magazine</Link>
+            {/* <Link to ="/Case1">Illenium Magazine</Link> */}
             </span>
             <Link to ="/Case1"><img src={img1} alt="" /></Link>
           </div>
           <div className="portfolioItem">
             <span className="headertext">
-            <Link to ="/Case2">Cofy. Brandbook</Link>
+            {/* <Link to ="/Case2">Cofy. Brandbook</Link> */}
             </span>
             <Link to ="/Case2"><img src={img2} alt="" /></Link>
           </div>
           <div className="portfolioItem">
             <span className="headertext">
-            <Link to ="/Case3">Cofy. Merch</Link>
+            {/* <Link to ="/Case3">Cofy. Merch</Link> */}
             </span>
             <Link to ="/Case3"><img src={img3} alt="" /></Link>
-          </div>          <div className="portfolioItem">
-            <span className="headertext">
-            <Link to ="/Case4">Cofy. Website and App Adoption</Link>
-            </span>
-            <Link to ="/Case4"><img src={img4} alt="" /></Link>
-          </div>
+          </div>          
+
       </section>
      </main> 
     );

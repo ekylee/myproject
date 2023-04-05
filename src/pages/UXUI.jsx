@@ -1,6 +1,8 @@
 import img1 from "../assets/image/5 sreen iphone 14.jpg";
 import img2 from "../assets/image/img2.jpg";
 import '../assets/css/portfolio.css'
+import img4 from "../assets/image/iPhone 12 Mockup app.jpg";
+
 import { Link } from "react-router-dom";
 
 
@@ -14,10 +16,16 @@ export default function MotionGraphic() {
         <section className="container-portfolio">
           <div className="portfolioItem">
             <span className="headertext">
-            <Link to ="/Case5">Northern Xscape Rental</Link>
+            {/* <Link to ="/Case5">Northern Xscape Rental</Link> */}
             </span>
             <Link to ="/Case5"><img src={img1} alt="" /></Link>
             
+          </div>
+          <div className="portfolioItem">
+            <span className="headertext">
+            {/* <Link to ="/Case4">Cofy. Website and App Adoption</Link> */}
+            </span>
+            <Link to ="/Case4"><img src={img4} alt="" /></Link>
           </div>
           {/* <div className="portfolioItem">
             <span className="headertext">
