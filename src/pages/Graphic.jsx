@@ -1,7 +1,6 @@
 import img1 from "../assets/image/img1.jpg";
 import img2 from "../assets/image/Horizontal_Book_Cover & back_7.jpg";
 import img3 from "../assets/image/Sign_Mockup01_MicroVolume.jpg";
-import img4 from "../assets/image/iPhone 12 Mockup app.jpg";
 
 
 import '../assets/css/portfolio.css'
