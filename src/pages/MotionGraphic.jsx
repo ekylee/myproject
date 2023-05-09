@@ -1,5 +1,7 @@
 import vid1 from "../assets/Video/EDM logo_1.mp4";
 import vid2 from "../assets/Video/A5_Motion Design Production_Esther_Lee.mp4";
+import vid3 from "../assets/Video/Motion Design Package_Esther Lee.mp4";
+
 import '../assets/css/portfolio.css'
 
 
@@ -11,15 +13,21 @@ export default function MotionGraphic() {
         <h1>Motion Graphics</h1>
   
         <section className="container-portfolio">
+        <div className="portfolioItem">
+            <span>
+            <h1 className="headertext"></h1>
+            </span>
+            <video controls src={vid3} > </video>
+          </div>
           <div className="portfolioItem">
             <span>
-            <h1 className="headertext">Logo Reveal</h1>
+            <h1 className="headertext"></h1>
             </span>
             <video controls src={vid1} > </video>
           </div>
           <div className="portfolioItem">
           <span>
-            <h1 className="headertext">Lyric video</h1>
+            <h1 className="headertext"></h1>
           </span>
             <video controls src={vid2} > </video>
           </div>
