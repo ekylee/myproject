@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a1f879a4.css",
-    "main.js": "/static/js/main.eee90abe.js",
+    "main.js": "/static/js/main.1caa84ea.js",
+    "static/media/Motion Design Package_Esther Lee.mp4": "/static/media/Motion Design Package_Esther Lee.999066be7c8296f66e2c.mp4",
     "static/media/A5_Motion Design Production_Esther_Lee.mp4": "/static/media/A5_Motion Design Production_Esther_Lee.34708fa91249a537e6f2.mp4",
     "static/media/Sign_Mockup01_MicroVolume.jpg": "/static/media/Sign_Mockup01_MicroVolume.8d478b89d51fc2e3fdb9.jpg",
     "static/media/EDM logo_1.mp4": "/static/media/EDM logo_1.6cedd2f5f69f9b790a90.mp4",
@@ -32,10 +33,10 @@
     "static/media/Asset2.svg": "/static/media/Asset2.5cd6a65684bee36b8c2979b51144923a.svg",
     "index.html": "/index.html",
     "main.a1f879a4.css.map": "/static/css/main.a1f879a4.css.map",
-    "main.eee90abe.js.map": "/static/js/main.eee90abe.js.map"
+    "main.1caa84ea.js.map": "/static/js/main.1caa84ea.js.map"
   },
   "entrypoints": [
     "static/css/main.a1f879a4.css",
-    "static/js/main.eee90abe.js"
+    "static/js/main.1caa84ea.js"
   ]
 }
