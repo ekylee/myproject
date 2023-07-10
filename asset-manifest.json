@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1f879a4.css",
-    "main.js": "/static/js/main.1caa84ea.js",
+    "main.js": "/static/js/main.fb778cba.js",
     "static/media/Motion Design Package_Esther Lee.mp4": "/static/media/Motion Design Package_Esther Lee.999066be7c8296f66e2c.mp4",
     "static/media/A5_Motion Design Production_Esther_Lee.mp4": "/static/media/A5_Motion Design Production_Esther_Lee.34708fa91249a537e6f2.mp4",
     "static/media/Sign_Mockup01_MicroVolume.jpg": "/static/media/Sign_Mockup01_MicroVolume.8d478b89d51fc2e3fdb9.jpg",
@@ -11,9 +11,13 @@
     "static/media/Paper Shopping -Æag Beautiful Mockup.jpg": "/static/media/Paper Shopping -Æag Beautiful Mockup.5f475304faa9d24d1407.jpg",
     "static/media/10 screen.jpg": "/static/media/10 screen.8e5a93109d58a53f674e.jpg",
     "static/media/iPhone 12 Mockup app.jpg": "/static/media/iPhone 12 Mockup app.908ca964709ea08fcd32.jpg",
+    "static/media/Yelp Redesign2.png": "/static/media/Yelp Redesign2.4e9f2db97851d7a3693a.png",
+    "static/media/Yelp Redesign.png": "/static/media/Yelp Redesign.403b9c02c9e43cdcddfe.png",
     "static/media/profile-pic-better-2.png": "/static/media/profile-pic-better-2.33d7c63176a1b55e6d4c.png",
+    "static/media/yelp 12s.jpg": "/static/media/yelp 12s.8d3c12e033bc5f732190.jpg",
     "static/media/Coffee Cup PSD Mockup.jpg": "/static/media/Coffee Cup PSD Mockup.664cd4228de6e5d291b2.jpg",
     "static/media/Isometric Smartphone Free Mockup.jpg": "/static/media/Isometric Smartphone Free Mockup.42ef9222d0ce1016224e.jpg",
+    "static/media/Yelp.jpg": "/static/media/Yelp.252fc0f57d4d715c69ef.jpg",
     "static/media/MacBook Air2.jpg": "/static/media/MacBook Air2.e73cbe13fac03d6d176d.jpg",
     "static/media/MacBook Air3.jpg": "/static/media/MacBook Air3.cc75c41bffc7ce40f08e.jpg",
     "static/media/bg2-trans.png": "/static/media/bg2-trans.60cfe9ebb9bb30e92a4f.png",
@@ -29,14 +33,23 @@
     "static/media/Horizontal_Book_P,2-3.jpg": "/static/media/Horizontal_Book_P,2-3.96a6750e78c00a9f9e3a.jpg",
     "static/media/Horizontal_Book_Low fi_4.jpg": "/static/media/Horizontal_Book_Low fi_4.b1171556ad33a34252c8.jpg",
     "static/media/Horizontal_Book_Cover & back_7.jpg": "/static/media/Horizontal_Book_Cover & back_7.b2576ee901c8acd5de44.jpg",
+    "static/media/Friend list.png": "/static/media/Friend list.ddc3689c38921f726983.png",
+    "static/media/Feature private public.jpg": "/static/media/Feature private public.16750ae66cab32a26df9.jpg",
+    "static/media/redesign.jpg": "/static/media/redesign.71d2ffc2c4396abc4c23.jpg",
+    "static/media/Cluttered.jpg": "/static/media/Cluttered.8b312f25296531019a44.jpg",
+    "static/media/solution.jpg": "/static/media/solution.833fe2c0d1abc4dcba24.jpg",
+    "static/media/Outcome.jpg": "/static/media/Outcome.eabd8b8ecdba1dcf2da6.jpg",
+    "static/media/Yelp userflow.jpg": "/static/media/Yelp userflow.9b1a1aa3de9b66737180.jpg",
+    "static/media/research.jpg": "/static/media/research.c512fad1445f2a15f22f.jpg",
+    "static/media/design process yelp.png": "/static/media/design process yelp.db3864fd99c4af428e32.png",
     "static/media/Flowchart1024_1.jpg": "/static/media/Flowchart1024_1.51dcd8f7381d81cacec7.jpg",
     "static/media/Asset2.svg": "/static/media/Asset2.5cd6a65684bee36b8c2979b51144923a.svg",
     "index.html": "/index.html",
     "main.a1f879a4.css.map": "/static/css/main.a1f879a4.css.map",
-    "main.1caa84ea.js.map": "/static/js/main.1caa84ea.js.map"
+    "main.fb778cba.js.map": "/static/js/main.fb778cba.js.map"
   },
   "entrypoints": [
     "static/css/main.a1f879a4.css",
-    "static/js/main.1caa84ea.js"
+    "static/js/main.fb778cba.js"
   ]
 }
