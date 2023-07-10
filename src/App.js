@@ -19,6 +19,7 @@ import Case2 from "./pages/Case2";
 import Case3 from "./pages/Case 3";
 import Case4 from "./pages/Case 4";
 import Case5 from "./pages/Case 5";
+import Case6 from "./pages/Case 6";
 
 
 
@@ -36,6 +37,7 @@ export default function App() {
           <Route>
           <Route path="UXUI" element={<TransitionComponent><UXUI/></TransitionComponent>} />
             <Route path="Case5" element={<TransitionComponent><Case5 /></TransitionComponent>} />
+            <Route path="Case6" element={<TransitionComponent><Case6 /></TransitionComponent>} />
           </Route>
           <Route path="MotionGraphic" element={<TransitionComponent><MotionGraphic /></TransitionComponent>} />
           <Route>

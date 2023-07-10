@@ -131,7 +131,7 @@ export default function Case5() {
           <img src={img2}  alt=""/>
           <h3>User Persona</h3>
           <img src={img3} alt=""/>
-          <h1 class='headertext-ux'>The Desgin</h1>
+          <h1 class='headertext-ux'>The Design</h1>
           <img src={img5} alt=""/>
           <p className="subheadertext-ux">Concluding my research finding and insight, I've decided these are nessesary features to include in order to enhance user experience:          </p>
             <ul>
